@@ -1,3 +1,4 @@
+LICENSE
 README.md
 pyproject.toml
 setup.py
@@ -5,9 +6,6 @@ shellmind/__init__.py
 shellmind/ai_handler.py
 shellmind/cli.py
 shellmind/utils.py
-CONTRIBUTING.md
-LICENSE
-CHANGELOG.md
 shellmind.egg-info/PKG-INFO
 shellmind.egg-info/SOURCES.txt
 shellmind.egg-info/dependency_links.txt
