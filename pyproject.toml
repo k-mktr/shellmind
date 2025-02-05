@@ -41,8 +41,8 @@ ollama = ["ollama>=0.5.7"]
 shellmind = "shellmind.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/your-repo/shellmind"
-Documentation = "https://github.com/your-repo/shellmind#readme"
-Repository = "https://github.com/your-repo/shellmind"
-Issues = "https://github.com/your-repo/shellmind/issues"
-Changelog = "https://github.com/your-repo/shellmind/blob/main/CHANGELOG.md" 
+Homepage = "https://github.com/k-mktr/shellmind"
+Documentation = "https://github.com/k-mktr/shellmind#readme"
+Repository = "https://github.com/k-mktr/shellmind"
+Issues = "https://github.com/k-mktr/shellmind/issues"
+Changelog = "https://github.com/k-mktr/shellmind/blob/main/CHANGELOG.md" 
