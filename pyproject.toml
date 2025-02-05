@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shellmind"
+version = "0.1.0"
+description = "AI-powered terminal assistant for generating, understanding, and executing command-line instructions."
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    { name = "Karl Danisz", email = "k@mktr.sbs" }
+]
+license = { file = "LICENSE" }
+keywords = ["terminal", "cli", "ai", "shell", "command-line", "linux"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Utilities",
+    "Topic :: System :: Shells",
+]
+
+dependencies = [
+    "openai>=1.61.1",
+    "python-dotenv>=0.21.0",
+    "argparse>=1.4.0",
+]
+
+[project.optional-dependencies]
+ollama = ["ollama>=0.5.7"]
+
+[project.scripts]
+shellmind = "shellmind.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/your-repo/shellmind"
+Documentation = "https://github.com/your-repo/shellmind#readme"
+Repository = "https://github.com/your-repo/shellmind"
+Issues = "https://github.com/your-repo/shellmind/issues"
+Changelog = "https://github.com/your-repo/shellmind/blob/main/CHANGELOG.md" 

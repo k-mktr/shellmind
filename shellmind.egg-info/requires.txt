@@ -1,0 +1,6 @@
+openai>=1.0.0
+python-dotenv>=0.21.0
+argparse>=1.4.0
+
+[ollama]
+ollama>=0.5.7
